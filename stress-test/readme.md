@@ -62,12 +62,12 @@ docker run --network testnet loadtest:latest \
 
 #### Teste com o projeto do rate-limiter (bloqueio de IP)
 ```bash
- docker run --network=rate-limiter_limiter-net loadtester --url=http://app:8080 --requests=5 --concurrency=5
+ docker run --network=rate-limiter_limiter-net loadtester --url=http://app:8080 --requests=6 --concurrency=5
 ```
 
 #### Teste com o projeto do rate-limiter (bloqueio via token)
 ```bash
- docker run --network=rate-limiter_limiter-net loadtester --url=http://app:8080 --requests=5 --concurrency=5 --token=meusegredo
+ docker run --network=rate-limiter_limiter-net loadtester --url=http://app:8080 --requests=11 --concurrency=10 --token=meusegredo
 ```
 
 
