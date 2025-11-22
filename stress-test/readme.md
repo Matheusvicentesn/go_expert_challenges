@@ -28,6 +28,7 @@ docker run loadtest:latest --url=https://httpbin.org/status/200 --requests=1000 
 | `--url` | string | URL do serviço a testar (obrigatório) | `https://httpbin.org/status/200` |
 | `--requests` | int | Número total de requisições (obrigatório) | `1000` |
 | `--concurrency` | int | Chamadas simultâneas (obrigatório) | `10` |
+| `--token` | string | Token enviado no header API_KEY para testes com rate-limiter (opcional) | `meusegredo` |
 
 ### Exemplos de Uso
 

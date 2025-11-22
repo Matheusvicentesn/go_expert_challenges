@@ -77,3 +77,5 @@ repeat 15 curl -H "API_KEY: meutokensecreto" -s -o /dev/null -w "%{http_code}\n"
 for i in {1..15}; do curl -H "API_KEY: meutokensecreto" -s -o /dev/null -w "%{http_code}\n" http://localhost:8080/; done | sort | uniq -c
 ```
 
+#### C. Teste via stress-test (Outro projeto)
+[Link do readme](https://github.com/Matheusvicentesn/go_expert_challenges/blob/main/stress-test/readme.md)
