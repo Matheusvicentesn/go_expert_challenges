@@ -124,6 +124,6 @@ go test ./tests/...
 
 ## Deploy Cloud Run
 
-[Deploy](https://full-cycle-weather-cep-ew56uuy4ka-uc.a.run.app/weather/01001-000)
+[Deploy](https://full-cycle-weather-cep-531494565432.us-central1.run.app/weather/04417020)
 
 
